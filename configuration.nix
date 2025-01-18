@@ -129,7 +129,7 @@
     permitRootLogin = "no";
     passwordAuthentication = false;
   };
-  # networking.firewall.allowedUDPPorts = [ ... ];
+  networking.firewall.allowedUDPPorts = [];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
   nix.settings.experimental-features = [ "nix-command" "flakes"];
